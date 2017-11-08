@@ -1,0 +1,182 @@
+/*Definiendo estilo del encabezado de la Página*/ 
+*{
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	z-index: 100;
+	background: #66AEC7;
+	height: 77px; /*altura*/
+	width: 100%;
+}
+
+/*estilo del título*/
+header h1 {
+	padding-top: 20px;
+	color: white;
+	font-family: 'Special Elite', cursive;
+	font-size: 28px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.fondo #foto{
+	position: relative;
+	width:100%;
+}
+
+.caja1{
+	position: absolute;
+	background-color: white;
+	height: 240px;
+	margin-left: 125px;
+	margin-top: -845px;
+	width: 520px;
+}
+
+.caja1 h1 {
+	padding-left: 25px;
+	padding-top: 20px;
+	font-family: 'Special Elite', cursive;
+	font-size: 22px;
+	color:black;
+	padding-top: 38px;
+  	padding-right: 80px;
+}
+
+.caja1 p {
+	padding-top: 15px;
+	padding-left: 25px;
+	font-family: 'Special Elite', cursive;
+	font-size: 18px;
+	color:gray;
+	line-height: 1.5em;
+}
+
+.caja1 hr {
+	height: 1px;
+  	background-color: lightgray;
+}
+
+.caja1 h2 {
+	padding-left: 25px;
+	padding-top: 50px;
+	font-family: 'Special Elite', cursive;
+	font-size: 18px;
+	color:blue;
+}
+
+.caja2{
+	font-family: 'Special Elite', cursive;
+	font-size: 18px;
+	padding-top: 20px;
+	position: absolute;
+	background-color: white;
+	height: 210px;
+	margin-left: 665px;
+	margin-top: -830px;
+	width: 480px;
+}
+
+.caja2 hr {
+	height: 1px;
+  	background-color: blue;
+}
+
+/* Estilos botón agregar */
+#boton {
+	background-color: #66AEC7;
+	border: 0px;
+	border-radius: 3px;
+	cursor: pointer;
+	text-align: center;
+	margin: 4em auto;
+	margin-left: 20px;
+	width: 110px;
+	height: 45px;
+	display: block;
+	color: #FFF;
+}
+
+#boton:hover {
+	background-color: #5590A6;
+
+}
+
+#boton:focus, textarea:focus{
+	outline: none;
+}
+
+/* Estilos contenedor comentarios */
+#cont {
+	border-radius: 0.4em;
+	width: 51em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+}
+
+#cont span {
+	margin-left: 1em;
+}
+
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+#btn:focus, textarea:focus{
+	outline: none;
+}
+
+/* Estilos contenedor comentarios */
+#cont {
+	border-radius: 0.4em;
+	width: 51em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+}
+
+#cont span {
+	margin-left: 1em;
+}
+
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+.heart, .trash {
+	margin:1em;
+	float: right;
+}
+
+.trash:hover {
+	color: #1DA1F2;
+	cursor: pointer;
+}
+
+.strike-out {
+	text-decoration: line-through;
+	color: #1DA1F2;
+}
+
+.red {
+	color: #FC1E26;
+	cursor: pointer;
+}
+
+p {
+	display: inline-block;
+	margin-left: 0.5em;
+}*/
