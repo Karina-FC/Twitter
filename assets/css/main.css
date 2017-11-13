@@ -112,40 +112,15 @@ header h1 {
 
 /* Estilos contenedor comentarios */
 #cont {
-	border-radius: 0.4em;
+	border-radius: 3em;
 	width: 51em;
 	margin: 0 auto;
-	color: #4E4D53;
+	color: black;
 	text-align: left;
 	margin-bottom: 6em;
 }
 
-#cont span {
-	margin-left: 1em;
-}
-
-#cont div {
-	padding: 1em 0.5em;
-	margin-bottom: 2em;
-	outline: 0.1em solid #E5E3F2;
-	background-color: #FFF;
-}
-
-#btn:focus, textarea:focus{
-	outline: none;
-}
-
-/* Estilos contenedor comentarios */
 #cont {
-	border-radius: 0.4em;
-	width: 51em;
-	margin: 0 auto;
-	color: #4E4D53;
-	text-align: left;
-	margin-bottom: 6em;
-}
-
-#cont span {
 	margin-left: 1em;
 }
 
@@ -153,30 +128,22 @@ header h1 {
 	padding: 1em 0.5em;
 	margin-bottom: 2em;
 	outline: 0.1em solid #E5E3F2;
-	background-color: #FFF;
-}
-
-.heart, .trash {
-	margin:1em;
-	float: right;
-}
-
-.trash:hover {
-	color: #1DA1F2;
-	cursor: pointer;
-}
-
-.strike-out {
-	text-decoration: line-through;
-	color: #1DA1F2;
-}
-
-.red {
-	color: #FC1E26;
-	cursor: pointer;
+	background-color: white;
 }
 
 p {
 	display: inline-block;
-	margin-left: 0.5em;
-}*/
+	margin-left: 2em;
+}
+
+.caja3 {
+	font-family: 'Special Elite', cursive;
+	font-size: 18px;
+	padding-top: 10px;
+	position: absolute;
+	background-color: white;
+	height: 10px;
+	margin-left: 65px;
+	margin-top: -30px;
+	width: 183px;
+}

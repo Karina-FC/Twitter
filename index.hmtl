@@ -26,15 +26,15 @@
 	</section>	
 
 	<!-- Sección textarea, botón y contenedor de mensajes -->
-	<section>
+	<section class="center">
 		<div class="caja2">	
-			<textarea class="texto" placeholder="¿Qué estás pasando?"></textarea>
+			<textarea class="texto" id="comment" placeholder="¿Qué estás pasando?"></textarea><p id="contador"><span>caracteres</span></p>
 			<hr>
 			<button type="button" id="boton" onclick="add()"><i aria-hidden="true"></i>TWEET</button>
 			<!-- contenedor comentarios -->
-			<div id="cont"></div>
-		</div>
 
+			<div id="contenedorTexto" class="caja3"></div>
+		</div>
 	</section>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
